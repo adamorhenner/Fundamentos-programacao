@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dom - appendchild</title>
+   </head>
+<body>
+<div id="nissan">
+
+</div>
+
+<script>
+
+
+    var versa = document.createElement("p");
+    versa.innerHTML = "versa";
+
+    var sentra = document.createElement("p");
+    sentra.innerHTML = "sentra";
+
+    document.getElementById("nissan").appendChild(versa);
+    document.getElementById("nissan").appendChild(sentra);
+  
+    document.getElementById("nissan").removeChild(versa);
+
+
+</script>
+
+</body>
+</html>
