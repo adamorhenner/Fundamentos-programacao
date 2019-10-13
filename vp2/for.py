@@ -5,11 +5,16 @@
 
 
 
-cervejas = ["[1]Heineken", "[2]Corona", "[3]Petra", "[4]Eisenbah", "[5]NS2"]
+#cervejas = ["[1]Heineken", "[2]Corona", "[3]Petra", "[4]Eisenbah", "[5]NS2"]
 
-print("Selecione uma das cervejas pelo códigos: ")
+#print("Selecione uma das cervejas pelo códigos: ")
 
-for cerveja in cervejas:
-    print("#", cerveja)
+#for cerveja in cervejas:
+#    print("#", cerveja)
 
-cervejaEscolida = input()
+#cervejaEscolida = input()
+
+numeros = ["um", "dois", "tres", "quatro"]
+
+for numero in numeros:
+    print(numero)
