@@ -5,15 +5,11 @@
 #def reajusteProduto(produto):
 #    print((produto *15)/ 100)
 
-def reajustar(produto):
-    novoPreco = produto + produto * 0.15
-    print(novoPreco)
+def reajustar(lista):
+    for item in lista:
+        reajuste = item + item * 0.15
+        print(reajuste)
 
+produtos = [100.0,2.0,3.0,400.00,5498.02,50.25,725.2,230.5,900.0,600.0]
 
-for i in range(10):
-    feijao = 10
-    input("qual o produto? ")
-    
-    
-    reajustar(feijao)
-
+reajustar(produtos)
