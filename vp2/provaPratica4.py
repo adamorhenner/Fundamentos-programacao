@@ -1,11 +1,9 @@
-def quantidadeDeConsoantes(palavra):
-    total = 0
-    cosoantes = ["b","c","d","f","g"]
-    for l in cosoantes:
-        if l == cosoantes:
-            total = total +1
-    print(total)
+def contarConsoante(texto):
+    totalDeConsoantes = 0
+    for letra in texto:
+        if letra != "a" and letra != "e" and letra != "i" and letra != "o" and letra != "u":
+            totalDeConsoantes = totalDeConsoantes +1
+    print(totalDeConsoantes)
 
 palavra = input()
-
-quantidadeDeConsoantes(palavra)
+contarConsoante(palavra)
